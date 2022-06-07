@@ -1,20 +1,24 @@
 import React from 'react';
+import Ambition from '../Ambition/Ambition';
 import Banner from '../Banner/Banner';
 import ControlHome from '../ControlHome/ControlHome';
+import Designed from '../Designed/Designed';
 import HandsFree from '../HandsFree/HandsFree';
 import Info from '../Info/Info';
 import PlayMusic from '../PlayMusic/PlayMusic';
-import Useness from '../Useness/Useness';
+import Privacy from '../Privacy/Privacy';
 
 const Home = () => {
     return (
-        <div >
-            <Banner/>
-            <Info/>
-            <PlayMusic/>
-            <HandsFree/>
-            <ControlHome/>
-            <Useness/>
+        <div>
+            <Banner />
+            <Info />
+            <PlayMusic />
+            <HandsFree />
+            <ControlHome />
+            <Privacy />
+            <Designed />
+            <Ambition/>
         </div>
     );
 };
