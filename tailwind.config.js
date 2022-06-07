@@ -1,7 +1,15 @@
 module.exports = {
     content: ["./src/**/*.{js,jsx,ts,tsx}"],
     theme: {
-        extend: {},
+        extend: {
+            backgroundImage: {
+                "worktable-bg": "url('/src/asset/img/worktable.jpg')",
+                "tv-bg": "url('/src/asset/img/tv.png')",
+                "tvscreen-bg": "url('/src/asset/img/walltv.png')",
+                
+            
+            },
+        },
     },
     daisyui: {
         themes: [

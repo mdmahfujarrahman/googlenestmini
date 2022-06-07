@@ -51,7 +51,7 @@ const PlayMusic = () => {
             <div className="container mx-auto mt-20 lg:mt-28 text-primary">
                 {bgImage}
                 
-                </div>
+            </div>
         </section>
     );
 };
